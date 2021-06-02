@@ -1,0 +1,12 @@
+{
+  "name": "instagram-integration-poc",
+  "displayName": "instagram-integration-poc",
+  "expo": {
+    "name": "instagram-integration-poc",
+    "slug": "instagram-integration-poc",
+    "version": "1.0.0",
+    "assetBundlePatterns": [
+      "**/*"
+    ]
+  }
+}
