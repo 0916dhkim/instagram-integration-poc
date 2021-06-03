@@ -5,7 +5,9 @@ import React from 'react';
 export default function App() {
   return (
     <View style={styles.container}>
-      <Text>Open up App.tsx to start working on your app!</Text>
+      <Text>ID: {process.env.INSTAGRAM_CLIENT_ID}</Text>
+      <Text>SECRET: {process.env.INSTAGRAM_CLIENT_SECRET}</Text>
+      <Text>REDIRECT: {process.env.INSTAGRAM_REDIRECT_URI}</Text>
     </View>
   );
 }
