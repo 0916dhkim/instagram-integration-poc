@@ -16,6 +16,12 @@ export default function Home() {
       <Button title="Integrate Instagram" onPress={() => {
         navigation.navigate('Login');
       }} />
+      {
+        accessToken &&
+        <Button title="Test API" color="pink" onPress={() => {
+          navigation.navigate('Form');
+        }} />
+      }
     </View>
   );
 }
